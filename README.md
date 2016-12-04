@@ -1,3 +1,11 @@
+<h1>RTL-Navbar</h1>
+
+<h4>Install as bower component</h4>
+<pre>
+# install rtl-navbar
+bower install rtl-navbar
+</pre>
+<h5>or</h5>
 Add following section to your HTML and include RTL-Navbar.css in your head
 ```HTML
 <section class="menu-section"> 
