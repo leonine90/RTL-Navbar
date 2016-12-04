@@ -21,7 +21,6 @@ Base Navbar Styles
 .menu li a {
 	display: block;
 	text-decoration: none;
-	text-align: center;
 	color: white;
 	padding: .6em 1em;
     font-family: 'IranianSansRegular'; 
@@ -38,14 +37,29 @@ Base Navbar Styles
 RTL Styles
 --------------------------------------------------------------*/
 @media screen and (min-width: 768px){
+	.nav ul{
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+	}
 	.single-nav ul{
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.single-nav li{
+		text-align: right;
+	}
+
+	.single-nav-center ul{
 		display: flex;
 		flex-direction: row-reverse;
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
-	.single-nav li{
+	.single-nav-center li{
 		flex-grow: 1;
 		text-align: center;
 	}
-}@
+}
