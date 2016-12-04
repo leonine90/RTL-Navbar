@@ -1,7 +1,6 @@
 Add following section to your HTML and include RTL-Navbar.css in your head
 ```HTML
 <section class="menu-section"> 
-    <h2 class="menu-heading">Single Level Menu</h2>
     <nav id="single-nav" class="single-nav menu" role="navigation">
         <ul>
             <li><a href="#">آیتم 1</a></li>

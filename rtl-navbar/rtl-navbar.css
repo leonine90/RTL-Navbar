@@ -1,0 +1,14 @@
+/*A Flexbox solution for Right to left languages inspired by Lynda.com&&&& */
+
+@media screen and (min-width: 30em){
+	.single-nav ul{
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.single-nav li{
+		flex-grow: 1;
+		text-align: center;
+	}
+}
