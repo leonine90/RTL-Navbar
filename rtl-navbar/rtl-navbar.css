@@ -3,7 +3,7 @@
 
 
 /*--------------------------------------------------------------
-Base Navbar Style
+Base Navbar Styles
 --------------------------------------------------------------*/
 .menu-section {
 	padding-bottom: 2em;
@@ -35,9 +35,9 @@ Base Navbar Style
 }
 
 /*--------------------------------------------------------------
-RTL Style
+RTL Styles
 --------------------------------------------------------------*/
-@media screen and (min-width: 30em){
+@media screen and (min-width: 768px){
 	.single-nav ul{
 		display: flex;
 		flex-direction: row-reverse;
