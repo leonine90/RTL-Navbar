@@ -26,7 +26,7 @@ Base Navbar Styles
     font-family: 'IranianSansRegular'; 
     font-weight: normal; 
     font-style: normal; 
-
+    text-align: center;
 }
 
 .menu li a:hover {
@@ -36,7 +36,7 @@ Base Navbar Styles
 /*--------------------------------------------------------------
 RTL Styles
 --------------------------------------------------------------*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 30em) {
 	.nav ul{
 		display: flex;
 		flex-direction: row-reverse;
