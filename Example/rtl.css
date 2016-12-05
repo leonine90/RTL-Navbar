@@ -34,7 +34,7 @@ Base Navbar Styles
 }
 
 /*--------------------------------------------------------------
-RTL Styles
+Single Level Styles
 --------------------------------------------------------------*/
 @media screen and (min-width: 30em) {
 	.nav ul{
@@ -51,14 +51,24 @@ RTL Styles
 	.single-nav li{
 		text-align: right;
 	}
-
+	
 	.single-nav-center ul{
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.single-nav-center li{
+		text-align: center;
+	}
+	
+	.single-nav-spread ul{
 		display: flex;
 		flex-direction: row-reverse;
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
-	.single-nav-center li{
+	.single-nav-spread li{
 		flex-grow: 1;
 		text-align: center;
 	}
